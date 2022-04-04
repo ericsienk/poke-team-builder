@@ -31,6 +31,9 @@ export class AppComponent {
   iterations = 10000;
   banList: any[] = [];
   loading = false;
+  error: boolean | string = false;
+  currentIteration = 0;
+  requestedIterations = 0;
   baseSpriteUrlMapper: any = {
     'Legends of Arceus': 'https://img.pokemondb.net/sprites/legends-arceus/normal',
     'National': 'https://img.pokemondb.net/sprites/home/normal',
@@ -68,14 +71,7 @@ export class AppComponent {
         map(values => values.map((name: any) => name ? this._filterPokemonRequired(name) : this.dex))
       );
     
-    if (typeof Worker !== 'undefined') {
-      this.worker = new Worker(new URL('./app.worker', import.meta.url));
-
-      this.worker.onmessage = ({ data }: any, more: any) => {
-        this.builtTeam = data.team;
-        this.loading = false;
-      };
-    } else {
+    if (typeof Worker === 'undefined') {
       alert('Hey your browser is too old for this webpage!');
     }
   }
@@ -124,6 +120,23 @@ export class AppComponent {
 
   onSubmit() {
     this.loading = true;
+    this.error = false;
+    this.requestedIterations = this.iterations;
+    this.worker = new Worker(new URL('./app.worker', import.meta.url));
+    this.worker.onmessage = ({ data }: any) => {
+      this.builtTeam = data.team;
+      this.currentIteration = data.currentInteration;
+      if (data.done) {
+        this.loading = false;
+        this.worker.terminate();
+      }
+    };
+
+    this.worker.onerror = (e: Error) => {
+      this.error = e?.message || 'Something went wrong...';
+      this.loading = false;
+    }    
+
     this.members.controls.forEach((control) => {
       if (control.value.member.length) {
         control.reset();
@@ -138,11 +151,12 @@ export class AppComponent {
     this.worker.postMessage(payload);
   }
 
-  selectedDex(event: any) {
+  selectedDex() {
     this.resetMembers();
     this.resetBanned();
     const { name } = this.dexList.find(({ value }) => value === this.dex);
     this.baseSpriteUrl = this.baseSpriteUrlMapper[name];
+    this.builtTeam = [];
   }
 
   memberBlur(event: any) {

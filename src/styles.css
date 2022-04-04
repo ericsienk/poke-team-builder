@@ -9,6 +9,18 @@ mat-card {
 
 .member-sprite {
   height: 4rem;
+  width: 4rem;
+}
+
+.member-sprite:after {
+  content: "";
+  position: absolute;
+  margin-left: -4rem;
+  width: inherit;
+  height: inherit;
+  background: #ebebeb url('https://img.pokemondb.net/sprites/home/normal/ditto.png') no-repeat center;
+  background-size: cover;
+  color: transparent;
 }
 
 .member {

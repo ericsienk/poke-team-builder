@@ -8,7 +8,7 @@
         <mat-card-subtitle>Select a Pokedex to build a team with</mat-card-subtitle>
         <mat-card-content>
           <mat-form-field >
-            <mat-select formControlName="pokedex" [(value)]="this.dex" (selectionChange)="this.selectedDex($event)">
+            <mat-select formControlName="pokedex" [(value)]="this.dex" (selectionChange)="this.selectedDex()">
               <mat-option *ngFor="let item of this.dexList" [value]="item.value">{{item.name}}</mat-option>
             </mat-select>
           </mat-form-field>
@@ -85,11 +85,11 @@
       <mat-card>
         <mat-card-content>
           <mat-card-title>Build Your Team</mat-card-title>
-          <p>When you build a team, an external process will determine "the best" team based off of required and banned Pokemon in a Pokedex.</p>
+          <p>When you build a team, an external process will determine "the very best" based off of required and banned Pokemon in a Pokedex.</p>
           <p>Each iteration of the team will get graded on overall strengths, weaknesses, and base stats.</p>
         </mat-card-content>
         <mat-card-actions>
-          <button mat-button mat-raised-button color="primary">BUILD</button>
+          <button mat-button mat-raised-button [disabled]="loading" color="primary">BUILD</button>
         </mat-card-actions>
         <mat-card-footer>
           <mat-progress-bar *ngIf="loading" mode="indeterminate"></mat-progress-bar>
@@ -103,6 +103,9 @@
     <mat-card-title>Results</mat-card-title>
     <mat-card-subtitle>     
        <div *ngIf="!builtTeam.length">A team will show up here once everything is submitted and processed.</div>
+       <div *ngIf="loading">Simulating Pokemon Battles ({{this.currentIteration}}/{{this.requestedIterations}})</div>
+       <div *ngIf="builtTeam.length && !loading">Here's the winning team!</div>
+       <div *ngIf="error">{{this.error}}</div>
     </mat-card-subtitle>
     <mat-card-content>
       <div *ngIf="builtTeam.length">

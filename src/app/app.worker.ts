@@ -284,6 +284,7 @@ class DexService {
   }
 
   createTeam(iterations: any, seedTeam: any, banList: any[] = [], size = 6) {
+    const initialIterationSize = iterations;
     const names = seedTeam ? seedTeam.map((x: any) => x.name) : [];
     console.log(names);
     const dex = this.analyzeTypes();
@@ -312,15 +313,15 @@ class DexService {
         winnerTeam = analysis;
         // console.log(winnerTeam);
         console.log(`\n****WINNER**** [${analysis.scoring}] ${analysis.team.map((p: any) => p.name).join()}`);
-
+        postMessage({ ...winnerTeam, currentInteration: (initialIterationSize - iterations )});
       } else {
-        //console.log(`\n[${analysis.scoring}] ${analysis.team.map((p: any) => p.name).join()}`);
+        // console.log(`\n[${analysis.scoring}] ${analysis.team.map((p: any) => p.name).join()}`);
       }
 
       iterations--;
     }
 
-    return winnerTeam;
+    return { ...winnerTeam, done: true };
   }
 
   analyzeTeam(team: any, dex: any) {
