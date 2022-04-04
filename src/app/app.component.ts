@@ -1,9 +1,17 @@
 import { Component } from '@angular/core';
 import LegendsArceusDex from '../assets/legends-arceus-dex.json';
 import NationalDex from '../assets/national-dex.json';
-import { FormGroup, FormControl,FormArray, FormBuilder } from '@angular/forms'
+import { FormGroup, FormControl, FormArray, FormBuilder } from '@angular/forms'
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators'
+const HP = 'hp',
+  ATTACK = 'atk',
+  DEFENSE = 'def',
+  SPECIAL_ATK = 'spa',
+  SPECIAL_DEF = 'spd',
+  SPEED = 'spe';
+
+const STATS = [HP, ATTACK, DEFENSE, SPECIAL_ATK, SPECIAL_DEF, SPEED];
 
 @Component({
   selector: 'app-root',
@@ -12,44 +20,60 @@ import { map, startWith } from 'rxjs/operators'
 })
 export class AppComponent {
   title: string = 'Team Builder';
-
   dexList: any[];
-
   dex: any;
-
   team: any[] = new Array<any>(6).fill(true).map(() => ({}));
-
   worker: any;
-
   teamForm: FormGroup;
-
-  public filterPokemon: Observable<any>;
-
+  filterPokemonRequired: Observable<any>;
+  filterPokemonBanned: Observable<any>;
   builtTeam: any[] = [];
+  iterations = 10000;
+  banList: any[] = [];
+  loading = false;
+  baseSpriteUrlMapper: any = {
+    'Legends of Arceus': 'https://img.pokemondb.net/sprites/legends-arceus/normal',
+    'National': 'https://img.pokemondb.net/sprites/home/normal',
+  };
+  baseSpriteUrl: string = this.baseSpriteUrlMapper['Legends of Arceus'];
 
   constructor(private fb: FormBuilder) {
-    this.dexList =  [
-      { name: 'Legends of Arceus', value: LegendsArceusDex },
-      { name: 'National', value: NationalDex },
+    this.dexList = [
+      { name: 'Legends of Arceus', value: this.filterPokdex(LegendsArceusDex) },
+      { name: 'National', value: this.filterPokdex(NationalDex) },
     ];
     this.dex = this.dexList[0].value;
-    this.teamForm = new FormGroup({ pokedex: new FormControl(), members: new FormArray([]) });
-    
+    this.teamForm = new FormGroup({
+      pokedex: new FormControl(),
+      members: new FormArray([]),
+      iterations: new FormControl(),
+      banned: new FormArray([]),
+    });
+
     this.resetMembers();
+    this.resetBanned();
     this.pokedex.setValue(this.dexList[0].value);
-          
-   this.filterPokemon = this.members.valueChanges
-     .pipe(
-       startWith([{ member: "" }]),
-       map(values => values.map((value: any) => typeof value === 'string' ? value : value.member)),
-       map(values => values.map((name: any) => name ? this._filterPokemon(name) : this.dex)),
-    );
+
+    this.filterPokemonRequired = this.members.valueChanges
+      .pipe(
+        startWith([{ member: "" }]),
+        map(values => values.map((value: any) => typeof value === 'string' ? value : value.member)),
+        map(values => values.map((name: any) => name ? this._filterPokemonRequired(name) : this.dex))
+      );
+
+      this.filterPokemonBanned = this.banned.valueChanges
+      .pipe(
+        startWith([{ member: "" }]),
+        map(values => values.map((value: any) => typeof value === 'string' ? value : value.member)),
+        map(values => values.map((name: any) => name ? this._filterPokemonRequired(name) : this.dex))
+      );
     
     if (typeof Worker !== 'undefined') {
-      // Create a new
       this.worker = new Worker(new URL('./app.worker', import.meta.url));
-      this.worker.onmessage = ({data}: any, more: any) => {
+
+      this.worker.onmessage = ({ data }: any, more: any) => {
         this.builtTeam = data.team;
+        this.loading = false;
       };
     } else {
       alert('Hey your browser is too old for this webpage!');
@@ -63,44 +87,90 @@ export class AppComponent {
     })
   }
 
-  get members() : FormArray {
+  resetBanned() {
+    while (this.banned.length) {
+      this.banned.removeAt(0);
+    }
+    this.banned.push(new FormGroup({ member: new FormControl('') }));
+  }
+
+  get banned(): FormArray {
+    return this.teamForm.get("banned") as FormArray;
+  }
+
+  get members(): FormArray {
     return this.teamForm.get("members") as FormArray;
   }
 
-  get pokedex(): FormArray {
-    return this.teamForm.get("pokedex") as FormArray;
+  get pokedex(): FormControl {
+    return this.teamForm.get("pokedex") as FormControl;
+  }
+
+  filterPokdex(pokedex: any) {
+    return pokedex.filter((x: any) => {
+      if (!x.oob || !x.oob.evos.length && x.oob.dex_number > 0) {
+        let total = this._getTotalStats(x);
+        if (total <= 601) {
+          return true;
+        }
+      }
+      return false;
+    });
+  }
+
+  _getTotalStats(statsObject: any) {
+    return STATS.reduce((total, stat) => total + statsObject[stat], 0);
   }
 
   onSubmit() {
+    this.loading = true;
     this.members.controls.forEach((control) => {
       if (control.value.member.length) {
         control.reset();
       }
     });
     console.log(this.teamForm.value);
+
     const team = this.members.controls.filter((group) => group.value.member?.name).map((control) => control.value.member.name);
     console.log(team);
-    const payload = { pokemon: this.dex, team };
+    const payload = { pokemon: this.dex, team, banList: this.banList, iterations: Math.max(this.iterations, 1) };
     console.log(payload);
     this.worker.postMessage(payload);
   }
 
   selectedDex(event: any) {
     this.resetMembers();
+    this.resetBanned();
+    const { name } = this.dexList.find(({ value }) => value === this.dex);
+    this.baseSpriteUrl = this.baseSpriteUrlMapper[name];
   }
 
   memberBlur(event: any) {
     console.log(event);
-
   }
 
-  private _filterPokemon(name: string) {
-    if(typeof name !=='string') return [];
+  addToBanList(member: any) {
+    console.log(member);
+    this.banList.push(member.name);
+    this.resetBanned();
+  }
+
+  removeFromBanList(index: any) {
+    this.banList.splice(index, 1);
+  }
+
+  private _filterPokemonRequired(name: string) {
+    if (typeof name !== 'string') return [];
     const _filterValue = name.toLowerCase();
     return this.dex.filter((d: any) => d.name.toLowerCase().includes(_filterValue));
   }
 
   public displayFn(obj: any): string {
     return obj ? obj.name : '';
+  }
+
+  public getSpriteUrl(member: any) {
+    const name = member.name.toLowerCase().replace(' ', '').replace('.', '-');
+    return `${this.baseSpriteUrl}/${name + (member.tag ? member.tag : '')}.png`
   }
 }

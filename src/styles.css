@@ -1,4 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%; padding-top: .75rem; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background: #303342; }
+
+mat-card {
+  margin-bottom: .75rem;
+}
+
+.member-sprite {
+  height: 4rem;
+}
+
+.member {
+  text-align: center;
+  padding: .75rem;
+  display: inline-block;
+}

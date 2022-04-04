@@ -23,6 +23,7 @@ function run() {
       mapped = {
         ...mapped,
         ...legendsAltMap[poke.oob.dex_number],
+        tag: '-hisuian',
       }
     }
     
