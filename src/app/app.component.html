@@ -102,17 +102,17 @@
   <mat-card>
     <mat-card-title>Results</mat-card-title>
     <mat-card-subtitle>     
-       <div *ngIf="!builtTeam.length">A team will show up here once everything is submitted and processed.</div>
-       <div *ngIf="loading">Simulating Pokemon Battles ({{this.currentIteration}}/{{this.requestedIterations}})</div>
-       <div *ngIf="builtTeam.length && !loading">Here's the winning team!</div>
-       <div *ngIf="error">{{this.error}}</div>
+       <div *ngIf="!builtTeam.length">A team will show up here once everything is submitted and processed.<p></p></div>
+       <div *ngIf="loading">Simulating Pokemon Battles...<p>Current winning team found during battle #{{this.currentIteration}}</p></div>
+       <div *ngIf="builtTeam.length && !loading">Here's the winning team!<p></p></div>
+       <div *ngIf="error">{{this.error}}<p></p></div>
     </mat-card-subtitle>
     <mat-card-content>
       <div *ngIf="builtTeam.length">
         <div *ngFor="let member of builtTeam" class="member">
           <img class="member-sprite" src="{{getSpriteUrl(member)}}"/>
           <div>
-            <div>{{member.name}}</div>
+            <a target="_blank" href={{getSearchUrl(member)}}>{{member.name}}</a>
             <div><img *ngFor="let type of member.types" src="https://www.serebii.net/pokedex-bw/type/{{type.toLowerCase()}}.gif"></div>
           </div>
         </div>

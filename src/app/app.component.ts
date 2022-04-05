@@ -187,4 +187,8 @@ export class AppComponent {
     const name = member.name.toLowerCase().replace(' ', '').replace('.', '-');
     return `${this.baseSpriteUrl}/${name + (member.tag ? member.tag : '')}.png`
   }
+
+  public getSearchUrl(member: any) {
+    return `https://www.google.com/search?q=${encodeURIComponent(member.name)}+smogon+serebii`;
+  }
 }

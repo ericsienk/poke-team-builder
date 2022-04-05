@@ -1,10 +1,10 @@
 /// <reference lib="webworker" />
 
-addEventListener('message', ({ data: { team, pokemon, interations = 10000, banList = [] } }) => {
+addEventListener('message', ({ data: { team, pokemon, iterations = 10000, banList = [] } }) => {
   const dex = new DexService(pokemon);
   const builder = dex.teamBuilder();
   team.forEach((member: string) => builder.pick(member));
-  postMessage(dex.createTeam(interations, builder.build(), banList));
+  postMessage(dex.createTeam(iterations, builder.build(), banList));
 });
 
 const AH = 1;
@@ -287,6 +287,7 @@ class DexService {
     const initialIterationSize = iterations;
     const names = seedTeam ? seedTeam.map((x: any) => x.name) : [];
     console.log(names);
+    console.log(initialIterationSize);
     const dex = this.analyzeTypes();
     let winnerTeam = null;
     while (iterations > 0) {
