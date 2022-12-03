@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import LegendsArceusDex from '../assets/legends-arceus-dex.json';
 import NationalDex from '../assets/national-dex.json';
+import ScarletVioletDex from '../assets/scarlet-violet-dex.json';
 import { FormGroup, FormControl, FormArray, FormBuilder } from '@angular/forms'
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators'
@@ -35,13 +36,15 @@ export class AppComponent {
   currentIteration = 0;
   requestedIterations = 0;
   baseSpriteUrlMapper: any = {
+    'Scarlet & Violet': 'https://img.pokemondb.net/sprites/scarlet-violet/normal',
     'Legends of Arceus': 'https://img.pokemondb.net/sprites/legends-arceus/normal',
     'National': 'https://img.pokemondb.net/sprites/home/normal',
   };
-  baseSpriteUrl: string = this.baseSpriteUrlMapper['Legends of Arceus'];
+  baseSpriteUrl: string = this.baseSpriteUrlMapper['Scarlet & Violet'];
 
   constructor(private fb: FormBuilder) {
     this.dexList = [
+      { name: 'Scarlet & Violet', value: this.filterPokdex(ScarletVioletDex) },
       { name: 'Legends of Arceus', value: this.filterPokdex(LegendsArceusDex) },
       { name: 'National', value: this.filterPokdex(NationalDex) },
     ];
