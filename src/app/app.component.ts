@@ -48,7 +48,7 @@ export class AppComponent {
     this.dexList = [
       { name: 'Scarlet & Violet', value: this.filterPokdex(ScarletVioletDex) },
       { name: 'Legends of Arceus', value: this.filterPokdex(LegendsArceusDex) },
-      { name: 'Diamon & Pearl', value: this.filterPokdex(DiamondPearlDex) },
+      { name: 'Diamond & Pearl', value: this.filterPokdex(DiamondPearlDex) },
       { name: 'National', value: this.filterPokdex(NationalDex) },
     ];
     this.dex = this.dexList[0].value;
