@@ -1,0 +1,5605 @@
+[
+    {
+        "name": "Turtwig",
+        "hp": 55,
+        "atk": 68,
+        "def": 64,
+        "spa": 45,
+        "spd": 55,
+        "spe": 31,
+        "weight": 10.2,
+        "height": 0.4,
+        "types": [
+            "Grass"
+        ],
+        "abilities": [
+            "Overgrow"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 387,
+            "evos": [
+                "Grotle"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Grotle",
+        "hp": 75,
+        "atk": 89,
+        "def": 85,
+        "spa": 55,
+        "spd": 65,
+        "spe": 36,
+        "weight": 97,
+        "height": 1.1,
+        "types": [
+            "Grass"
+        ],
+        "abilities": [
+            "Overgrow"
+        ],
+        "formats": [
+            "NFE"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 388,
+            "evos": [
+                "Torterra"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Torterra",
+        "hp": 95,
+        "atk": 109,
+        "def": 105,
+        "spa": 75,
+        "spd": 85,
+        "spe": 56,
+        "weight": 310,
+        "height": 2.2,
+        "types": [
+            "Grass",
+            "Ground"
+        ],
+        "abilities": [
+            "Overgrow"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 389,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Chimchar",
+        "hp": 44,
+        "atk": 58,
+        "def": 44,
+        "spa": 58,
+        "spd": 44,
+        "spe": 61,
+        "weight": 6.2,
+        "height": 0.5,
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Blaze"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 390,
+            "evos": [
+                "Monferno"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Monferno",
+        "hp": 64,
+        "atk": 78,
+        "def": 52,
+        "spa": 78,
+        "spd": 52,
+        "spe": 81,
+        "weight": 22,
+        "height": 0.9,
+        "types": [
+            "Fire",
+            "Fighting"
+        ],
+        "abilities": [
+            "Blaze"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 391,
+            "evos": [
+                "Infernape"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Infernape",
+        "hp": 76,
+        "atk": 104,
+        "def": 71,
+        "spa": 104,
+        "spd": 71,
+        "spe": 108,
+        "weight": 55,
+        "height": 1.2,
+        "types": [
+            "Fire",
+            "Fighting"
+        ],
+        "abilities": [
+            "Blaze"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 392,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Piplup",
+        "hp": 53,
+        "atk": 51,
+        "def": 53,
+        "spa": 61,
+        "spd": 56,
+        "spe": 40,
+        "weight": 5.2,
+        "height": 0.4,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Torrent"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 393,
+            "evos": [
+                "Prinplup"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Prinplup",
+        "hp": 64,
+        "atk": 66,
+        "def": 68,
+        "spa": 81,
+        "spd": 76,
+        "spe": 50,
+        "weight": 23,
+        "height": 0.8,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Torrent"
+        ],
+        "formats": [
+            "NFE"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 394,
+            "evos": [
+                "Empoleon"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Empoleon",
+        "hp": 84,
+        "atk": 86,
+        "def": 88,
+        "spa": 111,
+        "spd": 101,
+        "spe": 60,
+        "weight": 84.5,
+        "height": 1.7,
+        "types": [
+            "Water",
+            "Steel"
+        ],
+        "abilities": [
+            "Torrent"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 395,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Starly",
+        "hp": 40,
+        "atk": 55,
+        "def": 30,
+        "spa": 30,
+        "spd": 30,
+        "spe": 60,
+        "weight": 2,
+        "height": 0.3,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Keen Eye"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 396,
+            "evos": [
+                "Staravia"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Staravia",
+        "hp": 55,
+        "atk": 75,
+        "def": 50,
+        "spa": 40,
+        "spd": 40,
+        "spe": 80,
+        "weight": 15.5,
+        "height": 0.6,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Intimidate"
+        ],
+        "formats": [
+            "NFE"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 397,
+            "evos": [
+                "Staraptor"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Staraptor",
+        "hp": 85,
+        "atk": 120,
+        "def": 70,
+        "spa": 50,
+        "spd": 50,
+        "spe": 100,
+        "weight": 24.9,
+        "height": 1.2,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Intimidate"
+        ],
+        "formats": [
+            "UUBL"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 398,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Bidoof",
+        "hp": 59,
+        "atk": 45,
+        "def": 40,
+        "spa": 35,
+        "spd": 40,
+        "spe": 31,
+        "weight": 20,
+        "height": 0.5,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Simple",
+            "Unaware"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 399,
+            "evos": [
+                "Bibarel"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Bibarel",
+        "hp": 79,
+        "atk": 85,
+        "def": 60,
+        "spa": 55,
+        "spd": 60,
+        "spe": 71,
+        "weight": 31.5,
+        "height": 1,
+        "types": [
+            "Normal",
+            "Water"
+        ],
+        "abilities": [
+            "Simple",
+            "Unaware"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 400,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Kricketot",
+        "hp": 37,
+        "atk": 25,
+        "def": 41,
+        "spa": 25,
+        "spd": 41,
+        "spe": 25,
+        "weight": 2.2,
+        "height": 0.3,
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            "Shed Skin"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 401,
+            "evos": [
+                "Kricketune"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Kricketune",
+        "hp": 77,
+        "atk": 85,
+        "def": 51,
+        "spa": 55,
+        "spd": 51,
+        "spe": 65,
+        "weight": 25.5,
+        "height": 1,
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            "Swarm"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 402,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Shinx",
+        "hp": 45,
+        "atk": 65,
+        "def": 34,
+        "spa": 40,
+        "spd": 34,
+        "spe": 45,
+        "weight": 9.5,
+        "height": 0.5,
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Intimidate",
+            "Rivalry"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 403,
+            "evos": [
+                "Luxio"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Luxio",
+        "hp": 60,
+        "atk": 85,
+        "def": 49,
+        "spa": 60,
+        "spd": 49,
+        "spe": 60,
+        "weight": 30.5,
+        "height": 0.9,
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Intimidate",
+            "Rivalry"
+        ],
+        "formats": [
+            "NFE"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 404,
+            "evos": [
+                "Luxray"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Luxray",
+        "hp": 80,
+        "atk": 120,
+        "def": 79,
+        "spa": 95,
+        "spd": 79,
+        "spe": 70,
+        "weight": 42,
+        "height": 1.4,
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Intimidate",
+            "Rivalry"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 405,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Abra",
+        "hp": 25,
+        "atk": 20,
+        "def": 15,
+        "spa": 105,
+        "spd": 55,
+        "spe": 90,
+        "weight": 19.5,
+        "height": 0.9,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Inner Focus",
+            "Synchronize"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 63,
+            "evos": [
+                "Kadabra"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Kadabra",
+        "hp": 40,
+        "atk": 35,
+        "def": 30,
+        "spa": 120,
+        "spd": 70,
+        "spe": 105,
+        "weight": 56.5,
+        "height": 1.3,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Inner Focus",
+            "Synchronize"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 64,
+            "evos": [
+                "Alakazam"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Alakazam",
+        "hp": 55,
+        "atk": 50,
+        "def": 45,
+        "spa": 135,
+        "spd": 85,
+        "spe": 120,
+        "weight": 48,
+        "height": 1.5,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Inner Focus",
+            "Synchronize"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 65,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Magikarp",
+        "hp": 20,
+        "atk": 10,
+        "def": 55,
+        "spa": 15,
+        "spd": 20,
+        "spe": 80,
+        "weight": 10,
+        "height": 0.9,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 129,
+            "evos": [
+                "Gyarados"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Gyarados",
+        "hp": 95,
+        "atk": 125,
+        "def": 79,
+        "spa": 60,
+        "spd": 100,
+        "spe": 81,
+        "weight": 235,
+        "height": 6.5,
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "abilities": [
+            "Intimidate"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 130,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Budew",
+        "hp": 40,
+        "atk": 30,
+        "def": 35,
+        "spa": 50,
+        "spd": 70,
+        "spe": 55,
+        "weight": 1.2,
+        "height": 0.2,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Natural Cure",
+            "Poison Point"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 406,
+            "evos": [
+                "Roselia"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Roselia",
+        "hp": 50,
+        "atk": 60,
+        "def": 45,
+        "spa": 100,
+        "spd": 80,
+        "spe": 65,
+        "weight": 2,
+        "height": 0.3,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Natural Cure",
+            "Poison Point"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 315,
+            "evos": [
+                "Roserade"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Roserade",
+        "hp": 60,
+        "atk": 70,
+        "def": 55,
+        "spa": 125,
+        "spd": 105,
+        "spe": 90,
+        "weight": 14.5,
+        "height": 0.9,
+        "types": [
+            "Grass",
+            "Poison"
+        ],
+        "abilities": [
+            "Natural Cure",
+            "Poison Point"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 407,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Zubat",
+        "hp": 40,
+        "atk": 45,
+        "def": 35,
+        "spa": 30,
+        "spd": 40,
+        "spe": 55,
+        "weight": 7.5,
+        "height": 0.8,
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "abilities": [
+            "Inner Focus"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 41,
+            "evos": [
+                "Golbat"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Golbat",
+        "hp": 75,
+        "atk": 80,
+        "def": 70,
+        "spa": 65,
+        "spd": 75,
+        "spe": 90,
+        "weight": 55,
+        "height": 1.6,
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "abilities": [
+            "Inner Focus"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 42,
+            "evos": [
+                "Crobat"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Crobat",
+        "hp": 85,
+        "atk": 90,
+        "def": 80,
+        "spa": 70,
+        "spd": 80,
+        "spe": 130,
+        "weight": 75,
+        "height": 1.8,
+        "types": [
+            "Poison",
+            "Flying"
+        ],
+        "abilities": [
+            "Inner Focus"
+        ],
+        "formats": [
+            "UUBL"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 169,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Geodude",
+        "hp": 40,
+        "atk": 80,
+        "def": 100,
+        "spa": 30,
+        "spd": 30,
+        "spe": 20,
+        "weight": 20,
+        "height": 0.4,
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 74,
+            "evos": [
+                "Graveler"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Graveler",
+        "hp": 55,
+        "atk": 95,
+        "def": 115,
+        "spa": 45,
+        "spd": 45,
+        "spe": 35,
+        "weight": 105,
+        "height": 1,
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy"
+        ],
+        "formats": [
+            "NFE"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 75,
+            "evos": [
+                "Golem"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Golem",
+        "hp": 80,
+        "atk": 110,
+        "def": 130,
+        "spa": 55,
+        "spd": 65,
+        "spe": 45,
+        "weight": 300,
+        "height": 1.4,
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 76,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Onix",
+        "hp": 35,
+        "atk": 45,
+        "def": 160,
+        "spa": 30,
+        "spd": 45,
+        "spe": 70,
+        "weight": 210,
+        "height": 8.8,
+        "types": [
+            "Rock",
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 95,
+            "evos": [
+                "Steelix"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Steelix",
+        "hp": 75,
+        "atk": 85,
+        "def": 200,
+        "spa": 55,
+        "spd": 65,
+        "spe": 30,
+        "weight": 400,
+        "height": 9.2,
+        "types": [
+            "Steel",
+            "Ground"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 208,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Cranidos",
+        "hp": 67,
+        "atk": 125,
+        "def": 40,
+        "spa": 30,
+        "spd": 30,
+        "spe": 58,
+        "weight": 31.5,
+        "height": 0.9,
+        "types": [
+            "Rock"
+        ],
+        "abilities": [
+            "Mold Breaker"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 408,
+            "evos": [
+                "Rampardos"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Rampardos",
+        "hp": 97,
+        "atk": 165,
+        "def": 60,
+        "spa": 65,
+        "spd": 50,
+        "spe": 58,
+        "weight": 102.5,
+        "height": 1.6,
+        "types": [
+            "Rock"
+        ],
+        "abilities": [
+            "Mold Breaker"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 409,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Shieldon",
+        "hp": 30,
+        "atk": 42,
+        "def": 118,
+        "spa": 42,
+        "spd": 88,
+        "spe": 30,
+        "weight": 57,
+        "height": 0.5,
+        "types": [
+            "Rock",
+            "Steel"
+        ],
+        "abilities": [
+            "Sturdy"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 410,
+            "evos": [
+                "Bastiodon"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Bastiodon",
+        "hp": 60,
+        "atk": 52,
+        "def": 168,
+        "spa": 47,
+        "spd": 138,
+        "spe": 30,
+        "weight": 149.5,
+        "height": 1.3,
+        "types": [
+            "Rock",
+            "Steel"
+        ],
+        "abilities": [
+            "Sturdy"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 411,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Machop",
+        "hp": 70,
+        "atk": 80,
+        "def": 50,
+        "spa": 35,
+        "spd": 35,
+        "spe": 35,
+        "weight": 19.5,
+        "height": 0.8,
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Guts",
+            "No Guard"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 66,
+            "evos": [
+                "Machoke"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Machoke",
+        "hp": 80,
+        "atk": 100,
+        "def": 70,
+        "spa": 50,
+        "spd": 60,
+        "spe": 45,
+        "weight": 70.5,
+        "height": 1.5,
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Guts",
+            "No Guard"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 67,
+            "evos": [
+                "Machamp"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Machamp",
+        "hp": 90,
+        "atk": 130,
+        "def": 80,
+        "spa": 65,
+        "spd": 85,
+        "spe": 55,
+        "weight": 130,
+        "height": 1.6,
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Guts",
+            "No Guard"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 68,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Psyduck",
+        "hp": 50,
+        "atk": 52,
+        "def": 48,
+        "spa": 65,
+        "spd": 50,
+        "spe": 55,
+        "weight": 19.6,
+        "height": 0.8,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Cloud Nine",
+            "Damp"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 54,
+            "evos": [
+                "Golduck"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Golduck",
+        "hp": 80,
+        "atk": 82,
+        "def": 78,
+        "spa": 95,
+        "spd": 80,
+        "spe": 85,
+        "weight": 76.6,
+        "height": 1.7,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Cloud Nine",
+            "Damp"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 55,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Burmy",
+        "hp": 40,
+        "atk": 29,
+        "def": 45,
+        "spa": 29,
+        "spd": 45,
+        "spe": 36,
+        "weight": 3.4,
+        "height": 0.2,
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            "Shed Skin"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 412,
+            "evos": [
+                "Mothim",
+                "Wormadam",
+                "Wormadam-Sandy",
+                "Wormadam-Trash"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Wormadam",
+        "hp": 60,
+        "atk": 59,
+        "def": 85,
+        "spa": 79,
+        "spd": 105,
+        "spe": 36,
+        "weight": 6.5,
+        "height": 0.5,
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "abilities": [
+            "Anticipation"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 413,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Mothim",
+        "hp": 70,
+        "atk": 94,
+        "def": 50,
+        "spa": 94,
+        "spd": 50,
+        "spe": 66,
+        "weight": 23.3,
+        "height": 0.9,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "abilities": [
+            "Swarm"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 414,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Wurmple",
+        "hp": 45,
+        "atk": 45,
+        "def": 35,
+        "spa": 20,
+        "spd": 30,
+        "spe": 20,
+        "weight": 3.6,
+        "height": 0.3,
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            "Shield Dust"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 265,
+            "evos": [
+                "Cascoon",
+                "Silcoon"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Silcoon",
+        "hp": 50,
+        "atk": 35,
+        "def": 55,
+        "spa": 25,
+        "spd": 25,
+        "spe": 15,
+        "weight": 10,
+        "height": 0.6,
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            "Shed Skin"
+        ],
+        "formats": [
+            "NFE"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 266,
+            "evos": [
+                "Beautifly"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Beautifly",
+        "hp": 60,
+        "atk": 70,
+        "def": 50,
+        "spa": 90,
+        "spd": 50,
+        "spe": 65,
+        "weight": 28.4,
+        "height": 1,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "abilities": [
+            "Swarm"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 267,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Cascoon",
+        "hp": 50,
+        "atk": 35,
+        "def": 55,
+        "spa": 25,
+        "spd": 25,
+        "spe": 15,
+        "weight": 11.5,
+        "height": 0.7,
+        "types": [
+            "Bug"
+        ],
+        "abilities": [
+            "Shed Skin"
+        ],
+        "formats": [
+            "NFE"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 268,
+            "evos": [
+                "Dustox"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Dustox",
+        "hp": 60,
+        "atk": 50,
+        "def": 70,
+        "spa": 50,
+        "spd": 90,
+        "spe": 65,
+        "weight": 31.6,
+        "height": 1.2,
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "abilities": [
+            "Shield Dust"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 269,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Combee",
+        "hp": 30,
+        "atk": 30,
+        "def": 42,
+        "spa": 30,
+        "spd": 42,
+        "spe": 70,
+        "weight": 5.5,
+        "height": 0.3,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "abilities": [
+            "Honey Gather"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 415,
+            "evos": [
+                "Vespiquen"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Vespiquen",
+        "hp": 70,
+        "atk": 80,
+        "def": 102,
+        "spa": 80,
+        "spd": 102,
+        "spe": 40,
+        "weight": 38.5,
+        "height": 1.2,
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "abilities": [
+            "Pressure"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 416,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Pachirisu",
+        "hp": 60,
+        "atk": 45,
+        "def": 70,
+        "spa": 45,
+        "spd": 90,
+        "spe": 95,
+        "weight": 3.9,
+        "height": 0.4,
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Pickup",
+            "Run Away"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 417,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Buizel",
+        "hp": 55,
+        "atk": 65,
+        "def": 35,
+        "spa": 60,
+        "spd": 30,
+        "spe": 85,
+        "weight": 29.5,
+        "height": 0.7,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 418,
+            "evos": [
+                "Floatzel"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Floatzel",
+        "hp": 85,
+        "atk": 105,
+        "def": 55,
+        "spa": 85,
+        "spd": 50,
+        "spe": 115,
+        "weight": 33.5,
+        "height": 1.1,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 419,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Cherubi",
+        "hp": 45,
+        "atk": 35,
+        "def": 45,
+        "spa": 62,
+        "spd": 53,
+        "spe": 35,
+        "weight": 3.3,
+        "height": 0.4,
+        "types": [
+            "Grass"
+        ],
+        "abilities": [
+            "Chlorophyll"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 420,
+            "evos": [
+                "Cherrim"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Cherrim",
+        "hp": 70,
+        "atk": 60,
+        "def": 70,
+        "spa": 87,
+        "spd": 78,
+        "spe": 85,
+        "weight": 9.3,
+        "height": 0.5,
+        "types": [
+            "Grass"
+        ],
+        "abilities": [
+            "Flower Gift"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 421,
+            "evos": [],
+            "alts": [
+                "Cherrim-Sunshine"
+            ],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Shellos",
+        "hp": 76,
+        "atk": 48,
+        "def": 48,
+        "spa": 57,
+        "spd": 62,
+        "spe": 34,
+        "weight": 6.3,
+        "height": 0.3,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Sticky Hold",
+            "Storm Drain"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 422,
+            "evos": [
+                "Gastrodon"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Gastrodon",
+        "hp": 111,
+        "atk": 83,
+        "def": 68,
+        "spa": 92,
+        "spd": 82,
+        "spe": 39,
+        "weight": 29.9,
+        "height": 0.9,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "abilities": [
+            "Sticky Hold",
+            "Storm Drain"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 423,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Heracross",
+        "hp": 80,
+        "atk": 125,
+        "def": 75,
+        "spa": 40,
+        "spd": 95,
+        "spe": 85,
+        "weight": 54,
+        "height": 1.5,
+        "types": [
+            "Bug",
+            "Fighting"
+        ],
+        "abilities": [
+            "Guts",
+            "Swarm"
+        ],
+        "formats": [
+            "UUBL"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 214,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Aipom",
+        "hp": 55,
+        "atk": 70,
+        "def": 55,
+        "spa": 40,
+        "spd": 55,
+        "spe": 85,
+        "weight": 11.5,
+        "height": 0.8,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Pickup",
+            "Run Away"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 190,
+            "evos": [
+                "Ambipom"
+            ],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Ambipom",
+        "hp": 75,
+        "atk": 100,
+        "def": 66,
+        "spa": 60,
+        "spd": 66,
+        "spe": 115,
+        "weight": 20.3,
+        "height": 1.2,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Pickup",
+            "Technician"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 424,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Drifloon",
+        "hp": 90,
+        "atk": 50,
+        "def": 34,
+        "spa": 60,
+        "spd": 44,
+        "spe": 70,
+        "weight": 1.2,
+        "height": 0.4,
+        "types": [
+            "Ghost",
+            "Flying"
+        ],
+        "abilities": [
+            "Aftermath",
+            "Unburden"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 425,
+            "evos": [
+                "Drifblim"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Drifblim",
+        "hp": 150,
+        "atk": 80,
+        "def": 44,
+        "spa": 90,
+        "spd": 54,
+        "spe": 80,
+        "weight": 15,
+        "height": 1.2,
+        "types": [
+            "Ghost",
+            "Flying"
+        ],
+        "abilities": [
+            "Aftermath",
+            "Unburden"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 426,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Buneary",
+        "hp": 55,
+        "atk": 66,
+        "def": 44,
+        "spa": 44,
+        "spd": 56,
+        "spe": 85,
+        "weight": 5.5,
+        "height": 0.4,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Klutz",
+            "Run Away"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 427,
+            "evos": [
+                "Lopunny"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Lopunny",
+        "hp": 65,
+        "atk": 76,
+        "def": 84,
+        "spa": 54,
+        "spd": 96,
+        "spe": 105,
+        "weight": 33.3,
+        "height": 1.2,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Cute Charm",
+            "Klutz"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 428,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Gastly",
+        "hp": 30,
+        "atk": 35,
+        "def": 30,
+        "spa": 100,
+        "spd": 35,
+        "spe": 80,
+        "weight": 0.1,
+        "height": 1.3,
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 92,
+            "evos": [
+                "Haunter"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Haunter",
+        "hp": 45,
+        "atk": 50,
+        "def": 45,
+        "spa": 115,
+        "spd": 55,
+        "spe": 95,
+        "weight": 0.1,
+        "height": 1.6,
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 93,
+            "evos": [
+                "Gengar"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Gengar",
+        "hp": 60,
+        "atk": 65,
+        "def": 60,
+        "spa": 130,
+        "spd": 75,
+        "spe": 110,
+        "weight": 40.5,
+        "height": 1.5,
+        "types": [
+            "Ghost",
+            "Poison"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 94,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Misdreavus",
+        "hp": 60,
+        "atk": 60,
+        "def": 60,
+        "spa": 85,
+        "spd": 85,
+        "spe": 85,
+        "weight": 1,
+        "height": 0.7,
+        "types": [
+            "Ghost"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 200,
+            "evos": [
+                "Mismagius"
+            ],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Mismagius",
+        "hp": 60,
+        "atk": 60,
+        "def": 60,
+        "spa": 105,
+        "spd": 105,
+        "spe": 105,
+        "weight": 4.4,
+        "height": 0.9,
+        "types": [
+            "Ghost"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 429,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Murkrow",
+        "hp": 60,
+        "atk": 85,
+        "def": 42,
+        "spa": 85,
+        "spd": 42,
+        "spe": 91,
+        "weight": 2.1,
+        "height": 0.5,
+        "types": [
+            "Dark",
+            "Flying"
+        ],
+        "abilities": [
+            "Insomnia",
+            "Super Luck"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 198,
+            "evos": [
+                "Honchkrow"
+            ],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Honchkrow",
+        "hp": 100,
+        "atk": 125,
+        "def": 52,
+        "spa": 105,
+        "spd": 52,
+        "spe": 71,
+        "weight": 27.3,
+        "height": 0.9,
+        "types": [
+            "Dark",
+            "Flying"
+        ],
+        "abilities": [
+            "Insomnia",
+            "Super Luck"
+        ],
+        "formats": [
+            "UUBL"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 430,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Glameow",
+        "hp": 49,
+        "atk": 55,
+        "def": 42,
+        "spa": 42,
+        "spd": 37,
+        "spe": 85,
+        "weight": 3.9,
+        "height": 0.5,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Limber",
+            "Own Tempo"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 431,
+            "evos": [
+                "Purugly"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Purugly",
+        "hp": 71,
+        "atk": 82,
+        "def": 64,
+        "spa": 64,
+        "spd": 59,
+        "spe": 112,
+        "weight": 43.8,
+        "height": 1,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Own Tempo",
+            "Thick Fat"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 432,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Goldeen",
+        "hp": 45,
+        "atk": 67,
+        "def": 60,
+        "spa": 35,
+        "spd": 50,
+        "spe": 63,
+        "weight": 15,
+        "height": 0.6,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Water Veil"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 118,
+            "evos": [
+                "Seaking"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Seaking",
+        "hp": 80,
+        "atk": 92,
+        "def": 65,
+        "spa": 65,
+        "spd": 80,
+        "spe": 68,
+        "weight": 39,
+        "height": 1.3,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Water Veil"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 119,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Barboach",
+        "hp": 50,
+        "atk": 48,
+        "def": 43,
+        "spa": 46,
+        "spd": 41,
+        "spe": 60,
+        "weight": 1.9,
+        "height": 0.4,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "abilities": [
+            "Anticipation",
+            "Oblivious"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 339,
+            "evos": [
+                "Whiscash"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Whiscash",
+        "hp": 110,
+        "atk": 78,
+        "def": 73,
+        "spa": 76,
+        "spd": 71,
+        "spe": 60,
+        "weight": 23.6,
+        "height": 0.9,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "abilities": [
+            "Anticipation",
+            "Oblivious"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 340,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Chingling",
+        "hp": 45,
+        "atk": 30,
+        "def": 50,
+        "spa": 65,
+        "spd": 50,
+        "spe": 45,
+        "weight": 0.6,
+        "height": 0.2,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 433,
+            "evos": [
+                "Chimecho"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Chimecho",
+        "hp": 65,
+        "atk": 50,
+        "def": 70,
+        "spa": 95,
+        "spd": 80,
+        "spe": 65,
+        "weight": 1,
+        "height": 0.6,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 358,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Stunky",
+        "hp": 63,
+        "atk": 63,
+        "def": 47,
+        "spa": 41,
+        "spd": 41,
+        "spe": 74,
+        "weight": 19.2,
+        "height": 0.4,
+        "types": [
+            "Poison",
+            "Dark"
+        ],
+        "abilities": [
+            "Aftermath",
+            "Stench"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 434,
+            "evos": [
+                "Skuntank"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Skuntank",
+        "hp": 103,
+        "atk": 93,
+        "def": 67,
+        "spa": 71,
+        "spd": 61,
+        "spe": 84,
+        "weight": 38,
+        "height": 1,
+        "types": [
+            "Poison",
+            "Dark"
+        ],
+        "abilities": [
+            "Aftermath",
+            "Stench"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 435,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Meditite",
+        "hp": 30,
+        "atk": 40,
+        "def": 55,
+        "spa": 40,
+        "spd": 55,
+        "spe": 60,
+        "weight": 11.2,
+        "height": 0.6,
+        "types": [
+            "Fighting",
+            "Psychic"
+        ],
+        "abilities": [
+            "Pure Power"
+        ],
+        "formats": [
+            "NFE"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 307,
+            "evos": [
+                "Medicham"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Medicham",
+        "hp": 60,
+        "atk": 60,
+        "def": 75,
+        "spa": 60,
+        "spd": 75,
+        "spe": 80,
+        "weight": 31.5,
+        "height": 1.3,
+        "types": [
+            "Fighting",
+            "Psychic"
+        ],
+        "abilities": [
+            "Pure Power"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 308,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Bronzor",
+        "hp": 57,
+        "atk": 24,
+        "def": 86,
+        "spa": 24,
+        "spd": 86,
+        "spe": 23,
+        "weight": 60.5,
+        "height": 0.5,
+        "types": [
+            "Steel",
+            "Psychic"
+        ],
+        "abilities": [
+            "Heatproof",
+            "Levitate"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 436,
+            "evos": [
+                "Bronzong"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Bronzong",
+        "hp": 67,
+        "atk": 89,
+        "def": 116,
+        "spa": 79,
+        "spd": 116,
+        "spe": 33,
+        "weight": 187,
+        "height": 1.3,
+        "types": [
+            "Steel",
+            "Psychic"
+        ],
+        "abilities": [
+            "Heatproof",
+            "Levitate"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 437,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Ponyta",
+        "hp": 50,
+        "atk": 85,
+        "def": 55,
+        "spa": 65,
+        "spd": 65,
+        "spe": 90,
+        "weight": 30,
+        "height": 1,
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Flash Fire",
+            "Run Away"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 77,
+            "evos": [
+                "Rapidash"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Rapidash",
+        "hp": 65,
+        "atk": 100,
+        "def": 70,
+        "spa": 80,
+        "spd": 80,
+        "spe": 105,
+        "weight": 95,
+        "height": 1.7,
+        "types": [
+            "Fire"
+        ],
+        "abilities": [
+            "Flash Fire",
+            "Run Away"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 78,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Bonsly",
+        "hp": 50,
+        "atk": 80,
+        "def": 95,
+        "spa": 10,
+        "spd": 45,
+        "spe": 10,
+        "weight": 15,
+        "height": 0.5,
+        "types": [
+            "Rock"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 438,
+            "evos": [
+                "Sudowoodo"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Sudowoodo",
+        "hp": 70,
+        "atk": 100,
+        "def": 115,
+        "spa": 30,
+        "spd": 65,
+        "spe": 30,
+        "weight": 38,
+        "height": 1.2,
+        "types": [
+            "Rock"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Sturdy"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 185,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Mime Jr.",
+        "hp": 20,
+        "atk": 25,
+        "def": 45,
+        "spa": 70,
+        "spd": 90,
+        "spe": 60,
+        "weight": 13,
+        "height": 0.6,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Filter",
+            "Soundproof"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 439,
+            "evos": [
+                "Mr. Mime"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Mr. Mime",
+        "hp": 40,
+        "atk": 45,
+        "def": 65,
+        "spa": 100,
+        "spd": 120,
+        "spe": 90,
+        "weight": 54.5,
+        "height": 1.3,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Filter",
+            "Soundproof"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 122,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Happiny",
+        "hp": 100,
+        "atk": 5,
+        "def": 5,
+        "spa": 15,
+        "spd": 65,
+        "spe": 30,
+        "weight": 24.4,
+        "height": 0.6,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Natural Cure",
+            "Serene Grace"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 440,
+            "evos": [
+                "Chansey"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Chansey",
+        "hp": 250,
+        "atk": 5,
+        "def": 5,
+        "spa": 35,
+        "spd": 105,
+        "spe": 50,
+        "weight": 34.6,
+        "height": 1.1,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Natural Cure",
+            "Serene Grace"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 113,
+            "evos": [
+                "Blissey"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Blissey",
+        "hp": 255,
+        "atk": 10,
+        "def": 10,
+        "spa": 75,
+        "spd": 135,
+        "spe": 55,
+        "weight": 46.8,
+        "height": 1.5,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Natural Cure",
+            "Serene Grace"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 242,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Cleffa",
+        "hp": 50,
+        "atk": 25,
+        "def": 28,
+        "spa": 45,
+        "spd": 55,
+        "spe": 15,
+        "weight": 3,
+        "height": 0.3,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Cute Charm",
+            "Magic Guard"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 173,
+            "evos": [
+                "Clefairy"
+            ],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Clefairy",
+        "hp": 70,
+        "atk": 45,
+        "def": 48,
+        "spa": 60,
+        "spd": 65,
+        "spe": 35,
+        "weight": 7.5,
+        "height": 0.6,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Cute Charm",
+            "Magic Guard"
+        ],
+        "formats": [
+            "NFE"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 35,
+            "evos": [
+                "Clefable"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Clefable",
+        "hp": 95,
+        "atk": 70,
+        "def": 73,
+        "spa": 85,
+        "spd": 90,
+        "spe": 60,
+        "weight": 40,
+        "height": 1.3,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Cute Charm",
+            "Magic Guard"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 36,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Chatot",
+        "hp": 76,
+        "atk": 65,
+        "def": 45,
+        "spa": 92,
+        "spd": 42,
+        "spe": 91,
+        "weight": 1.9,
+        "height": 0.5,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Keen Eye",
+            "Tangled Feet"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 441,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Pichu",
+        "hp": 20,
+        "atk": 40,
+        "def": 15,
+        "spa": 35,
+        "spd": 35,
+        "spe": 60,
+        "weight": 2,
+        "height": 0.3,
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Static"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 172,
+            "evos": [
+                "Pikachu"
+            ],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Pikachu",
+        "hp": 35,
+        "atk": 55,
+        "def": 30,
+        "spa": 50,
+        "spd": 40,
+        "spe": 90,
+        "weight": 6,
+        "height": 0.4,
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Static"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 25,
+            "evos": [
+                "Raichu"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Raichu",
+        "hp": 60,
+        "atk": 90,
+        "def": 55,
+        "spa": 90,
+        "spd": 80,
+        "spe": 100,
+        "weight": 30,
+        "height": 0.8,
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Static"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 26,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Hoothoot",
+        "hp": 60,
+        "atk": 30,
+        "def": 30,
+        "spa": 36,
+        "spd": 56,
+        "spe": 50,
+        "weight": 21.2,
+        "height": 0.7,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Insomnia",
+            "Keen Eye"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 163,
+            "evos": [
+                "Noctowl"
+            ],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Noctowl",
+        "hp": 100,
+        "atk": 50,
+        "def": 50,
+        "spa": 76,
+        "spd": 96,
+        "spe": 70,
+        "weight": 40.8,
+        "height": 1.6,
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "abilities": [
+            "Insomnia",
+            "Keen Eye"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 164,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Spiritomb",
+        "hp": 50,
+        "atk": 92,
+        "def": 108,
+        "spa": 92,
+        "spd": 108,
+        "spe": 35,
+        "weight": 108,
+        "height": 1,
+        "types": [
+            "Ghost",
+            "Dark"
+        ],
+        "abilities": [
+            "Pressure"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 442,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Gible",
+        "hp": 58,
+        "atk": 70,
+        "def": 45,
+        "spa": 40,
+        "spd": 45,
+        "spe": 42,
+        "weight": 20.5,
+        "height": 0.7,
+        "types": [
+            "Dragon",
+            "Ground"
+        ],
+        "abilities": [
+            "Sand Veil"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 443,
+            "evos": [
+                "Gabite"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Gabite",
+        "hp": 68,
+        "atk": 90,
+        "def": 65,
+        "spa": 50,
+        "spd": 55,
+        "spe": 82,
+        "weight": 56,
+        "height": 1.4,
+        "types": [
+            "Dragon",
+            "Ground"
+        ],
+        "abilities": [
+            "Sand Veil"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 444,
+            "evos": [
+                "Garchomp"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Garchomp",
+        "hp": 108,
+        "atk": 130,
+        "def": 95,
+        "spa": 80,
+        "spd": 85,
+        "spe": 102,
+        "weight": 95,
+        "height": 1.9,
+        "types": [
+            "Dragon",
+            "Ground"
+        ],
+        "abilities": [
+            "Sand Veil"
+        ],
+        "formats": [
+            "Uber"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 445,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Munchlax",
+        "hp": 135,
+        "atk": 85,
+        "def": 40,
+        "spa": 40,
+        "spd": 85,
+        "spe": 5,
+        "weight": 105,
+        "height": 0.6,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Pickup",
+            "Thick Fat"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 446,
+            "evos": [
+                "Snorlax"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Snorlax",
+        "hp": 160,
+        "atk": 110,
+        "def": 65,
+        "spa": 65,
+        "spd": 110,
+        "spe": 30,
+        "weight": 460,
+        "height": 2.1,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Immunity",
+            "Thick Fat"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 143,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Unown",
+        "hp": 48,
+        "atk": 72,
+        "def": 48,
+        "spa": 72,
+        "spd": 48,
+        "spe": 48,
+        "weight": 5,
+        "height": 0.5,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 201,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Riolu",
+        "hp": 40,
+        "atk": 70,
+        "def": 40,
+        "spa": 35,
+        "spd": 40,
+        "spe": 60,
+        "weight": 20.2,
+        "height": 0.7,
+        "types": [
+            "Fighting"
+        ],
+        "abilities": [
+            "Inner Focus",
+            "Steadfast"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 447,
+            "evos": [
+                "Lucario"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Lucario",
+        "hp": 70,
+        "atk": 110,
+        "def": 70,
+        "spa": 115,
+        "spd": 70,
+        "spe": 90,
+        "weight": 54,
+        "height": 1.2,
+        "types": [
+            "Fighting",
+            "Steel"
+        ],
+        "abilities": [
+            "Inner Focus",
+            "Steadfast"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 448,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Wooper",
+        "hp": 55,
+        "atk": 45,
+        "def": 45,
+        "spa": 25,
+        "spd": 25,
+        "spe": 15,
+        "weight": 8.5,
+        "height": 0.4,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "abilities": [
+            "Damp",
+            "Water Absorb"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 194,
+            "evos": [
+                "Quagsire"
+            ],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Quagsire",
+        "hp": 95,
+        "atk": 85,
+        "def": 85,
+        "spa": 65,
+        "spd": 65,
+        "spe": 35,
+        "weight": 75,
+        "height": 1.4,
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "abilities": [
+            "Damp",
+            "Water Absorb"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 195,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Wingull",
+        "hp": 40,
+        "atk": 30,
+        "def": 30,
+        "spa": 55,
+        "spd": 30,
+        "spe": 85,
+        "weight": 9.5,
+        "height": 0.6,
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "abilities": [
+            "Keen Eye"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 278,
+            "evos": [
+                "Pelipper"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Pelipper",
+        "hp": 60,
+        "atk": 50,
+        "def": 100,
+        "spa": 85,
+        "spd": 70,
+        "spe": 65,
+        "weight": 28,
+        "height": 1.2,
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "abilities": [
+            "Keen Eye"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 279,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Girafarig",
+        "hp": 70,
+        "atk": 80,
+        "def": 65,
+        "spa": 90,
+        "spd": 65,
+        "spe": 85,
+        "weight": 41.5,
+        "height": 1.5,
+        "types": [
+            "Normal",
+            "Psychic"
+        ],
+        "abilities": [
+            "Early Bird",
+            "Inner Focus"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 203,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Hippopotas",
+        "hp": 68,
+        "atk": 72,
+        "def": 78,
+        "spa": 38,
+        "spd": 42,
+        "spe": 32,
+        "weight": 49.5,
+        "height": 0.8,
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            "Sand Stream"
+        ],
+        "formats": [
+            "NUBL"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 449,
+            "evos": [
+                "Hippowdon"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Hippowdon",
+        "hp": 108,
+        "atk": 112,
+        "def": 118,
+        "spa": 68,
+        "spd": 72,
+        "spe": 47,
+        "weight": 300,
+        "height": 2,
+        "types": [
+            "Ground"
+        ],
+        "abilities": [
+            "Sand Stream"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 450,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Azurill",
+        "hp": 50,
+        "atk": 20,
+        "def": 40,
+        "spa": 20,
+        "spd": 40,
+        "spe": 20,
+        "weight": 2,
+        "height": 0.2,
+        "types": [
+            "Normal"
+        ],
+        "abilities": [
+            "Huge Power",
+            "Thick Fat"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 298,
+            "evos": [
+                "Marill"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Marill",
+        "hp": 70,
+        "atk": 20,
+        "def": 50,
+        "spa": 20,
+        "spd": 50,
+        "spe": 40,
+        "weight": 8.5,
+        "height": 0.4,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Huge Power",
+            "Thick Fat"
+        ],
+        "formats": [
+            "NFE"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 183,
+            "evos": [
+                "Azumarill"
+            ],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Azumarill",
+        "hp": 100,
+        "atk": 50,
+        "def": 80,
+        "spa": 50,
+        "spd": 80,
+        "spe": 50,
+        "weight": 28.5,
+        "height": 0.8,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Huge Power",
+            "Thick Fat"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 184,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Skorupi",
+        "hp": 40,
+        "atk": 50,
+        "def": 90,
+        "spa": 30,
+        "spd": 55,
+        "spe": 65,
+        "weight": 12,
+        "height": 0.8,
+        "types": [
+            "Poison",
+            "Bug"
+        ],
+        "abilities": [
+            "Battle Armor",
+            "Sniper"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 451,
+            "evos": [
+                "Drapion"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Drapion",
+        "hp": 70,
+        "atk": 90,
+        "def": 110,
+        "spa": 60,
+        "spd": 75,
+        "spe": 95,
+        "weight": 61.5,
+        "height": 1.3,
+        "types": [
+            "Poison",
+            "Dark"
+        ],
+        "abilities": [
+            "Battle Armor",
+            "Sniper"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 452,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Croagunk",
+        "hp": 48,
+        "atk": 61,
+        "def": 40,
+        "spa": 61,
+        "spd": 40,
+        "spe": 50,
+        "weight": 23,
+        "height": 0.7,
+        "types": [
+            "Poison",
+            "Fighting"
+        ],
+        "abilities": [
+            "Anticipation",
+            "Dry Skin"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 453,
+            "evos": [
+                "Toxicroak"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Toxicroak",
+        "hp": 83,
+        "atk": 106,
+        "def": 65,
+        "spa": 86,
+        "spd": 65,
+        "spe": 85,
+        "weight": 44.4,
+        "height": 1.3,
+        "types": [
+            "Poison",
+            "Fighting"
+        ],
+        "abilities": [
+            "Anticipation",
+            "Dry Skin"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 454,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Carnivine",
+        "hp": 74,
+        "atk": 100,
+        "def": 72,
+        "spa": 90,
+        "spd": 72,
+        "spe": 46,
+        "weight": 27,
+        "height": 1.4,
+        "types": [
+            "Grass"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 455,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Remoraid",
+        "hp": 35,
+        "atk": 65,
+        "def": 35,
+        "spa": 65,
+        "spd": 35,
+        "spe": 65,
+        "weight": 12,
+        "height": 0.6,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Hustle",
+            "Sniper"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 223,
+            "evos": [
+                "Octillery"
+            ],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Octillery",
+        "hp": 75,
+        "atk": 105,
+        "def": 75,
+        "spa": 105,
+        "spd": 75,
+        "spe": 45,
+        "weight": 28.5,
+        "height": 0.9,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Sniper",
+            "Suction Cups"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 224,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Finneon",
+        "hp": 49,
+        "atk": 49,
+        "def": 56,
+        "spa": 49,
+        "spd": 61,
+        "spe": 66,
+        "weight": 7,
+        "height": 0.4,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Storm Drain",
+            "Swift Swim"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 456,
+            "evos": [
+                "Lumineon"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Lumineon",
+        "hp": 69,
+        "atk": 69,
+        "def": 76,
+        "spa": 69,
+        "spd": 86,
+        "spe": 91,
+        "weight": 24,
+        "height": 1.2,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Storm Drain",
+            "Swift Swim"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 457,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Tentacool",
+        "hp": 40,
+        "atk": 40,
+        "def": 35,
+        "spa": 50,
+        "spd": 100,
+        "spe": 70,
+        "weight": 45.5,
+        "height": 0.9,
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "abilities": [
+            "Clear Body",
+            "Liquid Ooze"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 72,
+            "evos": [
+                "Tentacruel"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Tentacruel",
+        "hp": 80,
+        "atk": 70,
+        "def": 65,
+        "spa": 80,
+        "spd": 120,
+        "spe": 100,
+        "weight": 55,
+        "height": 1.6,
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "abilities": [
+            "Clear Body",
+            "Liquid Ooze"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 73,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RB",
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Feebas",
+        "hp": 20,
+        "atk": 15,
+        "def": 20,
+        "spa": 10,
+        "spd": 55,
+        "spe": 80,
+        "weight": 7.4,
+        "height": 0.6,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Swift Swim"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 349,
+            "evos": [
+                "Milotic"
+            ],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Milotic",
+        "hp": 95,
+        "atk": 60,
+        "def": 79,
+        "spa": 100,
+        "spd": 125,
+        "spe": 81,
+        "weight": 162,
+        "height": 6.2,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Marvel Scale"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 350,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Mantyke",
+        "hp": 45,
+        "atk": 20,
+        "def": 50,
+        "spa": 60,
+        "spd": 120,
+        "spe": 50,
+        "weight": 65,
+        "height": 1,
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Water Absorb"
+        ],
+        "formats": [
+            "LC"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 458,
+            "evos": [
+                "Mantine"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Mantine",
+        "hp": 65,
+        "atk": 40,
+        "def": 70,
+        "spa": 80,
+        "spd": 140,
+        "spe": 70,
+        "weight": 220,
+        "height": 2.1,
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "abilities": [
+            "Swift Swim",
+            "Water Absorb"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 226,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Snover",
+        "hp": 60,
+        "atk": 62,
+        "def": 50,
+        "spa": 62,
+        "spd": 60,
+        "spe": 40,
+        "weight": 50.5,
+        "height": 1,
+        "types": [
+            "Grass",
+            "Ice"
+        ],
+        "abilities": [
+            "Snow Warning"
+        ],
+        "formats": [
+            "NUBL"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 459,
+            "evos": [
+                "Abomasnow"
+            ],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Abomasnow",
+        "hp": 90,
+        "atk": 92,
+        "def": 75,
+        "spa": 92,
+        "spd": 85,
+        "spe": 60,
+        "weight": 135.5,
+        "height": 2.2,
+        "types": [
+            "Grass",
+            "Ice"
+        ],
+        "abilities": [
+            "Snow Warning"
+        ],
+        "formats": [
+            "UUBL"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 460,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Sneasel",
+        "hp": 55,
+        "atk": 95,
+        "def": 55,
+        "spa": 35,
+        "spd": 75,
+        "spe": 115,
+        "weight": 28,
+        "height": 0.9,
+        "types": [
+            "Dark",
+            "Ice"
+        ],
+        "abilities": [
+            "Inner Focus",
+            "Keen Eye"
+        ],
+        "formats": [
+            "NU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 215,
+            "evos": [
+                "Weavile"
+            ],
+            "alts": [],
+            "genfamily": [
+                "GS",
+                "RS",
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Weavile",
+        "hp": 70,
+        "atk": 120,
+        "def": 65,
+        "spa": 45,
+        "spd": 85,
+        "spe": 125,
+        "weight": 34,
+        "height": 1.1,
+        "types": [
+            "Dark",
+            "Ice"
+        ],
+        "abilities": [
+            "Pressure"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 461,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Uxie",
+        "hp": 75,
+        "atk": 75,
+        "def": 130,
+        "spa": 75,
+        "spd": 130,
+        "spe": 95,
+        "weight": 0.3,
+        "height": 0.3,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 480,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Mesprit",
+        "hp": 80,
+        "atk": 105,
+        "def": 105,
+        "spa": 105,
+        "spd": 105,
+        "spe": 80,
+        "weight": 0.3,
+        "height": 0.3,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "UU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 481,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Azelf",
+        "hp": 75,
+        "atk": 125,
+        "def": 70,
+        "spa": 125,
+        "spd": 70,
+        "spe": 115,
+        "weight": 0.3,
+        "height": 0.3,
+        "types": [
+            "Psychic"
+        ],
+        "abilities": [
+            "Levitate"
+        ],
+        "formats": [
+            "OU"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 482,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Dialga",
+        "hp": 100,
+        "atk": 120,
+        "def": 120,
+        "spa": 150,
+        "spd": 100,
+        "spe": 90,
+        "weight": 683,
+        "height": 5.4,
+        "types": [
+            "Steel",
+            "Dragon"
+        ],
+        "abilities": [
+            "Pressure"
+        ],
+        "formats": [
+            "Uber"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 483,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Palkia",
+        "hp": 90,
+        "atk": 120,
+        "def": 100,
+        "spa": 150,
+        "spd": 120,
+        "spe": 100,
+        "weight": 336,
+        "height": 4.2,
+        "types": [
+            "Water",
+            "Dragon"
+        ],
+        "abilities": [
+            "Pressure"
+        ],
+        "formats": [
+            "Uber"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 484,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    },
+    {
+        "name": "Manaphy",
+        "hp": 100,
+        "atk": 100,
+        "def": 100,
+        "spa": 100,
+        "spd": 100,
+        "spe": 100,
+        "weight": 1.4,
+        "height": 0.3,
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Hydration"
+        ],
+        "formats": [
+            "Uber"
+        ],
+        "isNonstandard": "Standard",
+        "oob": {
+            "dex_number": 490,
+            "evos": [],
+            "alts": [],
+            "genfamily": [
+                "DP",
+                "BW",
+                "XY",
+                "SM",
+                "SS",
+                "SV"
+            ]
+        }
+    }
+]
