@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import LegendsArceusDex from '../assets/legends-arceus-dex.json';
 import NationalDex from '../assets/national-dex.json';
 import ScarletVioletDex from '../assets/scarlet-violet-dex.json';
+import VioletDlcDex from '../assets/violet-dlc-dex.json';
 import DiamondPearlDex from '../assets/diamond-pearl-dex.json';
 import { FormGroup, FormControl, FormArray, FormBuilder } from '@angular/forms'
 import { Observable } from 'rxjs';
@@ -38,6 +39,7 @@ export class AppComponent {
   requestedIterations = 0;
   baseSpriteUrlMapper: any = {
     'Scarlet & Violet': 'https://img.pokemondb.net/sprites/scarlet-violet/normal',
+    'Violet DLC': 'https://img.pokemondb.net/sprites/scarlet-violet/normal',
     'Legends of Arceus': 'https://img.pokemondb.net/sprites/legends-arceus/normal',
     'Diamond & Pearl': 'https://img.pokemondb.net/sprites/bank/normal',
     'National': 'https://img.pokemondb.net/sprites/home/normal',
@@ -47,6 +49,7 @@ export class AppComponent {
   constructor(private fb: FormBuilder) {
     this.dexList = [
       { name: 'Scarlet & Violet', value: this.filterPokdex(ScarletVioletDex) },
+      { name: 'Violet DLC', value: this.filterPokdex(VioletDlcDex) },
       { name: 'Legends of Arceus', value: this.filterPokdex(LegendsArceusDex) },
       { name: 'Diamond & Pearl', value: this.filterPokdex(DiamondPearlDex) },
       { name: 'National', value: this.filterPokdex(NationalDex) },
