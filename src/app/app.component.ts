@@ -39,7 +39,7 @@ export class AppComponent {
   currentIteration = 0;
   requestedIterations = 0;
   baseSpriteUrlMapper: any = {
-    'Legends ZA': 'https://img.pokemondb.net/sprites/scarlet-violet/normal',
+    'Legends ZA': 'https://img.pokemondb.net/sprites/home/normal',
     'Scarlet & Violet': 'https://img.pokemondb.net/sprites/scarlet-violet/normal',
     'Violet DLC': 'https://img.pokemondb.net/sprites/scarlet-violet/normal',
     'Legends of Arceus': 'https://img.pokemondb.net/sprites/legends-arceus/normal',

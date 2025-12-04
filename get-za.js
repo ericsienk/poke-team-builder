@@ -11,7 +11,14 @@ for (const [key, value] of Object.entries(stats)) {
       const [w, ...ater] = x;
       return w.toUpperCase() + ater.join('')
     }),
-    abilities: value.abilities.map(({ ability}) => ability),
+    abilities: value.abilities.map(({ ability }) => ability),
+    ...(value.misc && value.misc.evolution && {
+      "oob": {
+        "evos": [
+          value.misc.evolution.into
+        ],
+      }
+    })
   })
 }
 
