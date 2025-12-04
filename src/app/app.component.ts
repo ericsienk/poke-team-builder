@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import LegendsArceusDex from '../assets/legends-arceus-dex.json';
+import LegendsZADex from '../assets/legends-za-dex.json';
 import NationalDex from '../assets/national-dex.json';
 import ScarletVioletDex from '../assets/scarlet-violet-dex.json';
 import VioletDlcDex from '../assets/violet-dlc-dex.json';
@@ -38,6 +39,7 @@ export class AppComponent {
   currentIteration = 0;
   requestedIterations = 0;
   baseSpriteUrlMapper: any = {
+    'Legends ZA': 'https://img.pokemondb.net/sprites/scarlet-violet/normal',
     'Scarlet & Violet': 'https://img.pokemondb.net/sprites/scarlet-violet/normal',
     'Violet DLC': 'https://img.pokemondb.net/sprites/scarlet-violet/normal',
     'Legends of Arceus': 'https://img.pokemondb.net/sprites/legends-arceus/normal',
@@ -48,6 +50,7 @@ export class AppComponent {
 
   constructor(private fb: FormBuilder) {
     this.dexList = [
+      { name: 'Legends ZA', value: this.filterPokdex(LegendsZADex) },
       { name: 'Scarlet & Violet', value: this.filterPokdex(ScarletVioletDex) },
       { name: 'Violet DLC', value: this.filterPokdex(VioletDlcDex) },
       { name: 'Legends of Arceus', value: this.filterPokdex(LegendsArceusDex) },
