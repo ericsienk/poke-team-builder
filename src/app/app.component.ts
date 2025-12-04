@@ -46,7 +46,8 @@ export class AppComponent {
     'Diamond & Pearl': 'https://img.pokemondb.net/sprites/bank/normal',
     'National': 'https://img.pokemondb.net/sprites/home/normal',
   };
-  baseSpriteUrl: string = this.baseSpriteUrlMapper['Scarlet & Violet'];
+
+  baseSpriteUrl: string = this.baseSpriteUrlMapper['Legends ZA'];
 
   constructor(private fb: FormBuilder) {
     this.dexList = [
