@@ -179,19 +179,7 @@ class DexService {
     const ubers: any[] = [];
     const pool: any[] = [];
 
-    this.pokemon.filter((x: any) => {
-      if (!x.oob || !x.oob.evos.length && x.oob.dex_number > 0) {
-        let total = this._getTotalStats(x);
-        if (total <= options.statsLimit) {
-          return true;
-        } else {
-          x.total = total;
-          ubers.push(x);
-          return false;
-        }
-      }
-      return false;
-    }).forEach((pk: any) => {
+    this.pokemon.forEach((pk: any) => {
       const uniqueTyping = pk.types.sort().join('/');
       this._processTypingStat(unqiueTypesMap, uniqueTyping, pk);
       pk.types.forEach((type: any) => this._processTypingStat(typesMap, type, pk)); 

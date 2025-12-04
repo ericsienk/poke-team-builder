@@ -51,7 +51,7 @@ export class AppComponent {
 
   constructor(private fb: FormBuilder) {
     this.dexList = [
-      { name: 'Legends ZA', value: this.filterPokdex(LegendsZADex) },
+      { name: 'Legends ZA', value: this.filterPokdex(LegendsZADex, false) },
       { name: 'Scarlet & Violet', value: this.filterPokdex(ScarletVioletDex) },
       { name: 'Violet DLC', value: this.filterPokdex(VioletDlcDex) },
       { name: 'Legends of Arceus', value: this.filterPokdex(LegendsArceusDex) },
@@ -115,9 +115,13 @@ export class AppComponent {
     return this.teamForm.get("pokedex") as FormControl;
   }
 
-  filterPokdex(pokedex: any) {
+  filterPokdex(pokedex: any, checkStats: boolean = true) {
     return pokedex.filter((x: any) => {
       if (!x.oob || !x.oob.evos.length && x.oob.dex_number > 0) {
+        if (!checkStats) {
+          return true;
+        }
+
         let total = this._getTotalStats(x);
         if (total <= 601) {
           return true;
